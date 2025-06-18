@@ -1,0 +1,21 @@
+/* Custom styles to complement Tailwind */
+body {
+  font-family: "Inter", sans-serif;
+}
+
+textarea,
+input {
+  transition: all 0.2s ease-in-out;
+}
+
+textarea:focus,
+input:focus {
+  border-color: #2563eb;
+}
+
+pre {
+  max-height: 300px;
+  overflow-y: auto;
+  white-space: pre-wrap;
+  word-wrap: break-word;
+}
